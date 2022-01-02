@@ -1,0 +1,29 @@
+.loginForm {
+    display: grid;
+    grid-template-rows: auto, 1fr 1fr;
+    padding: 1rem;
+    gap: 1rem;
+}
+.loginForm img {
+    height: 100%;
+}
+
+.inputs {
+    width: 100%;
+
+}
+.inputs div {
+    width: 100%;
+    margin: .25rem 0;
+    align-items: center;
+    justify-content: center;
+}
+.inputs div div {
+    justify-content: flex-end;
+}
+
+.socios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

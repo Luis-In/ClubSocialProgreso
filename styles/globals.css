@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+footer {
+  text-align: center;
+}
+footer span a {
+  color: #007a3d;
+  font-weight: bolder;
+}
+
+section {
+  height: 100%;
+}
